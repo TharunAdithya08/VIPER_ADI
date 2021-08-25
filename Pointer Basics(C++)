@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float a;
+    a=100.8;
+    float *ptr;//Here *ptr is used to declare the type of variable ptr i.e. ptr is of type pointers like array declaration arr[size]
+    ptr=&a;//& is used to denote the address of the variable a
+    cout<<ptr<<endl;//ptr stores only the address 
+    cout<<*ptr;//*ptr is used to display the value in the address and *ptr here means 'VALUE AT'
+    //float *ptr means the datatype the pointer points to...may be int,float,double,any elementary Dtype
+}
